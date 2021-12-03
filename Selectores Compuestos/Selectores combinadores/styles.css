@@ -1,0 +1,4 @@
+/* Sólo afectará a los .title-2 que estén dentro del div, a esto se llama selector descendente o seleccionar hijos. En este caso .title o mas bien el h2, es hijo del div */
+div .title-2 {
+    background-color: teal;
+}

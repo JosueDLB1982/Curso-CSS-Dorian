@@ -1,0 +1,7 @@
+/* Agrupar los selectores así, ahorra codigo y optimiza el trabajo del explorador */
+.text,
+.text-2,
+.text-3,
+.text-4 {
+    background-color: steelblue;
+}

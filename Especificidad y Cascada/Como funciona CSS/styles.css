@@ -1,0 +1,25 @@
+/* La Especificidad establece cómo de específico es un selector para saber qué estilo aplicar. El cálculo se realiza con la siguiente fórmula:
+Cascada -> funciona siempre que la Especificidad sea la misma. Por eso se recomienda usar siempre clases (class) para no afectar negativamente la cascada 
+
+Herencia -> Es la capacidad que tienen algúnos elementos de heredar algúnas propiedades de sus elementos contenedores (padres, abuelos u otros)*/
+
+h1.title#title {
+    background-color: tomato;
+}
+
+h1 {
+    background-color: red;
+}
+
+.title {
+    background-color: blue;
+}
+
+#title {
+    background-color: green;
+}
+
+h1.title {
+    background-color: yellow !important;
+}
+

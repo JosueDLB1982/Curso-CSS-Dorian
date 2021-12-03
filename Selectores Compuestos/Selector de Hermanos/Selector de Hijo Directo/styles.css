@@ -1,0 +1,4 @@
+/* usar el símbolo > me permite aplicar el estilo a los hijos directos, hay otro parrafo que queda dentro del container pero que es nieto, el estilo no se aplica a él */
+.container > p {
+    background-color: tomato;
+}

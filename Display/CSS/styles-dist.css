@@ -1,0 +1,20 @@
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.text {
+    background-color: lightcoral;
+    /* Hace que un elemento de bloque se comporte como un elemento de línea */
+    /* display: inline;  */
+}
+
+.link {
+    background-color: #fff;
+    /* Hace que este elemento de linea se comporte como de bloque, admitiendo todas sus propiedades, entre ellas las dos aplicadas en este ejemplo */
+    /* display: block; */
+    display: inline-block; /* nos permite que un elemento siga siendo de línea pero admitiendo medidas y márgenes verticales */
+    width: 100px;
+    margin-top: 50px;
+}

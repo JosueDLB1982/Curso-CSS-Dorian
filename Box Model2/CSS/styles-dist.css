@@ -1,0 +1,71 @@
+
+/* * {
+     box-sizing: border-box;  En este caso particular si se recomienda el selectror universal, para que todas las cajas tengan la propieda border-box 
+} */
+
+.header {
+    background-color: red;
+    height: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.inline {
+    background-color: lightcoral;
+    color: inherit;
+    width: 150px;
+    padding: 10px;
+    margin: 20px; 
+    border: 3px dotted red;
+    border-radius: 5px;
+    border-right-color: blue;
+    border-bottom-color: blue;
+}
+
+.title {
+    background-color: black;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.block {
+    background-color: purple;
+    width: 170px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; /* calcula el tamaño del elemento incluyendo el padding y el border. */
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px; /* El margin es externo a la dimension de la caja */
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+    color: black;
+    width: 350px;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+    overflow: auto; /* salen barras de escroll si hacen falta para que el contenido de la caja no se desborde */
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 110px; */
+    
+
+}

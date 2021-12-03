@@ -1,0 +1,31 @@
+body {
+    background-color:#333;
+    color: #fff;
+}
+
+.block {
+    background-color: purple;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Los elementos en línea (inline) no tienen medidas, no surte efecto en ellos el width y el height. Su tamaño esta determinado por su contenido. Sólo se le da alto y ancho a los elementos de bloque. */
+
+.inline {
+    background-color: lightcoral;
+    color: inherit; /* De este modo heredará la propiedad del body */
+    padding: 5px;
+    margin: 10px; /* Los elementos en línea (inline) sólo tienen margen horizonatal, no aplican margen arriba o abajo. */
+}
+
+/* Podemos usar la propiedad margin-left y right en valor auto para centrar una caja, siempre y cuando establezcamos su ancho */
+.title {
+    text-align: center;
+    background-color: indianred;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}

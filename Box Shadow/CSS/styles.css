@@ -1,0 +1,12 @@
+.box {
+    background-color: darkcyan;
+    width: 200px;
+    padding: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 20px;
+    /* el primer valor es el desplazamiento en X, el segundo el desplazamiento en Y, el tercero es el degradado de la sombra. Si añadimos un cuarto valor podemos expandir la sombra como si le colocaramos padding. Al final podemos agregar un color para cambiar la sombra de color negro por defecto. Y con el atributo inset, colocamos la sombra por dentro. Las medidas de los valores pueden ser positivos o negativos. Colocando coma, puedo añadir todas las sombras que desee*/
+    box-shadow: /* inset */ 10px 10px 10px #333/* , 15px 15px blue */;
+}
